@@ -1,4 +1,35 @@
-@import "_mixins/font-face";
+// $fonts: (
+//  roboto-light: 'Roboto-Light',
+//  roboto-regular: 'Roboto-Regular',
+//  roboto-medium: 'Roboto-Medium',
+//  roboto-bold: 'Roboto-Bold',
+//  montserrat-light: 'Montserrat-Light',
+//  montserrat-regular: 'Montserrat-Regular',
+//  montserrat-medium: 'Montserrat-Medium',
+//  montserrat-semibold: 'Montserrat-Semibold',
+//  montserrat-bold: 'Montserrat-Bold',
+//  montserrat-extrabold: 'Montserrat-ExtraBold',
+// );
 
-@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
-@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+// @each $file-name, $font-name in $fonts {
+//   @include font-face($font-name, $file-name);
+// } 
+
+
+// $ff-roboto-light: map-get($fonts, roboto-light);                 // font-weight: 300
+// $ff-roboto-regular: map-get($fonts, roboto-regular);             // font-weight: 400
+// $ff-roboto-medium: map-get($fonts, roboto-medium);               // font-weight: 500
+// $ff-roboto-bold: map-get($fonts, roboto-bold);                   // font-weight: 700
+// $ff-montserrat-light: map-get($fonts, montserrat-light);         // font-weight: 300
+// $ff-montserrat-regular: map-get($fonts, montserrat-regular);     // font-weight: 400
+// $ff-montserrat-medium: map-get($fonts, montserrat-medium);       // font-weight: 500
+// $ff-montserrat-semibold: map-get($fonts, montserrat-semibold);   // font-weight: 600
+// $ff-montserrat-bold: map-get($fonts, montserrat-bold);           // font-weight: 700
+// $ff-montserrat-extrabold: map-get($fonts, montserrat-extrabold); // font-weight: 800
+
+// to enable, uncomment code above and the string below in _vars.scss: 
+// $font-family-base: $ff-montserrat-regular, sans-serif;
+
+@function rem ($target, $context: $base-font-size) {
+  @return ($target / $context) * 1rem;
+}

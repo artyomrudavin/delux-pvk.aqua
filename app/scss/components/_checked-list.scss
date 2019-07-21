@@ -1,0 +1,22 @@
+.checked-list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: rem(18px);
+  font-weight: 700;
+  padding-left: $spacer * 4;
+
+  &__icon {
+    position: absolute;
+    left: 0;
+    height: $spacer * 6;
+    width: $spacer * 6;
+    margin-left: -#{($spacer * 2 - $spacer / 2 )};
+    background: url(../../../img/icons/checked-icon.svg) no-repeat;
+    background-size: cover;
+  }
+
+  &.is-horizontal {
+    
+  }
+}

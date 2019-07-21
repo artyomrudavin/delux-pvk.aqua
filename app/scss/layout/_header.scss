@@ -1,0 +1,22 @@
+.l-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: $header-height;
+  color: #fff;
+  background-color: transparent;
+  z-index: 100;
+}
+
+.phone-wrapper {
+  font-size: rem(14px);
+  font-family: $font-family-second;
+  font-weight: 500;
+}
+
+.icon-phone {
+  width: 24px;
+  height: 24px;
+  background: url(../../img/icons/phone.svg) no-repeat;
+  background-size: cover;
+}

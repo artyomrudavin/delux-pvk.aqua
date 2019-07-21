@@ -1,0 +1,57 @@
+::selection {
+	background-color: $main-color;
+	color: #fff;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.33;
+	overflow-x: hidden;
+	font-family: $font-family-base;
+	font-size: $base-font-size;
+	color: $text-color;
+}
+
+main {
+	flex: 1;
+}
+
+section {
+	&.is-full-screen {
+		min-height: 100vh;
+	}
+	&.is-hero-bg {
+		color: #fff;
+	}
+}
+
+.mw-500 {
+	max-width: 500px;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.is-yellow {
+	color: $main-color;
+}
+
+.section-title {
+	font-size: rem(36px);
+	font-weight: 800;
+}
+
+.section-subtitle {
+	font-size: rem(24px);
+	font-weight: 500;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>BD5B0947-4BF6-4FF1-8977-30BC542209DD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-149.0%" y="-149.0%" width="397.9%" height="397.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="18.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.969174592   0 0 0 0 0.749705824   0 0 0 0 0.460007049  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AquaGradus-Deluxe-landing-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AquaGradus-DeLuxe-landing-" transform="translate(-355.000000, -470.000000)" fill="url(#linearGradient-2)" fill-rule="nonzero">
+            <g id="checked-(1)" filter="url(#filter-1)" transform="translate(390.000000, 505.000000)">
+                <path d="M23.921561,0 C10.7083484,0 0.000668989547,10.7105226 0.000668989547,23.920892 C0.000668989547,37.1327666 10.7096864,47.841784 23.921561,47.841784 C37.1319303,47.841784 47.8409477,37.1327666 47.8409477,23.920892 C47.8409477,10.7120279 37.1319303,0 23.921561,0 Z M23.921561,43.3565436 C13.187122,43.3565436 4.48590941,34.655331 4.48590941,23.920892 C4.48590941,13.186453 13.1886272,4.48524042 23.921561,4.48524042 C34.6544948,4.48524042 43.3557073,13.186453 43.3557073,23.920892 C43.3557073,34.655331 34.654662,43.3565436 23.921561,43.3565436 Z M33.3225366,13.745561 C32.3058397,13.1386202 31.006662,13.4988711 30.4221324,14.5528641 L22.401115,28.9607247 L17.9339373,23.5231777 C17.1251289,22.591777 16.05023,22.1089338 15.0350383,22.7158746 C14.0183415,23.3243206 13.598216,24.7880697 14.2561672,25.7269965 L20.4725854,33.2934355 C20.9375331,33.8973659 21.4682091,34.2592892 22.0229686,34.3624808 L22.0274843,34.3715122 L22.0843484,34.3745226 C22.2099512,34.3939233 24.0878049,34.7407944 24.8966132,33.2936028 L34.1032474,16.7568502 C34.6874425,15.7010174 34.3392334,14.354007 33.3225366,13.745561 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

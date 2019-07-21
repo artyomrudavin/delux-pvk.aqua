@@ -1,6 +1,14 @@
-$default-font: "roboto-example", sans-serif;
-$accent: orange;
-$text: #333;
+/* FONTS VARIABLES */
+
+$base-font-size: 16px;
+$font-family-base: 'Montserrat', sans-serif;
+// $font-family-base: $ff-montserrat-regular, sans-serif;
+
+$font-family-second: 'Roboto', sans-serif;
+
+/* COLORS VARIABLES */
+$main-color: #FF9B17;
+$text-color: #444444;
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 $grid-gutter-width: 30px;
@@ -9,3 +17,5 @@ $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
 
 $gutter: $grid-gutter-width;
+
+$header-height: 90px;
