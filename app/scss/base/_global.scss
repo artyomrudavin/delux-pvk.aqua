@@ -1,57 +1,63 @@
 ::selection {
-	background-color: $main-color;
-	color: #fff;
+  background-color: $primary;
+  color: #fff;
 }
 
 html,
 body {
-	margin: 0;
+  margin: 0;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.33;
-	overflow-x: hidden;
-	font-family: $font-family-base;
-	font-size: $base-font-size;
-	color: $text-color;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.33;
+  overflow-x: hidden;
+  font-family: $font-family-base;
+  font-size: $base-font-size;
+  color: $text-color;
 }
 
 main {
-	flex: 1;
+  flex: 1;
 }
 
 section {
-	&.is-full-screen {
-		min-height: 100vh;
-	}
-	&.is-hero-bg {
-		color: #fff;
-	}
+  padding: rem(60px) 0;
+
+  &.is-full-screen {
+    min-height: 100vh;
+  }
+  &.is-hero-bg {
+    color: #fff;
+  }
 }
 
 .mw-500 {
-	max-width: 500px;
+  max-width: 500px;
 }
 
 .flex-1 {
-	flex: 1;
+  flex: 1;
 }
 
-.is-yellow {
-	color: $main-color;
+.is-primary-color {
+  color: $primary;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .section-title {
-	font-size: rem(36px);
-	font-weight: 800;
+  font-size: rem(36px);
+  font-weight: 700;
 }
 
 .section-subtitle {
-	font-size: rem(24px);
-	font-weight: 500;
+  font-size: rem(24px);
+  font-weight: 500;
 }

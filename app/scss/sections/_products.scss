@@ -1,0 +1,50 @@
+.device-preview {
+  &__img {
+    display: block;
+    max-width: 93px;
+    margin: auto;
+  }
+
+  &__title {
+    font-size: rem(24px);
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    font-size: rem(18px);
+    font-weight: 700;
+  }
+}
+
+.device-details {
+  &__price {
+    color: $primary;
+    font-size: rem(24px);
+    font-weight: 700;
+
+    b {
+      font-size: rem(36px);
+    }
+  }
+
+  &__old-price {
+    position: relative;
+    font-size: rem(14px);	
+    font-weight: 500;
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 9px;
+      height: 1px;
+      width: 100%;
+      background-color: #EE4034;
+      transform: rotate(-30deg);
+    }
+  }
+
+  &__description {
+      font-size: rem(14px);
+  }
+}

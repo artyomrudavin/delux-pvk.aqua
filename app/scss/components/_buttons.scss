@@ -1,16 +1,21 @@
 .btn-primary {
   border: none;
-  padding: 0.5rem 1rem;
   margin: 0;
   text-decoration: none;
   color: #ffffff;
   font-size: rem(14px);
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 17.5px;
+  padding: 0.907rem 1rem;
+  border-radius: 22.5px;
   -webkit-appearance: none;
   -moz-appearance: none;
   cursor: pointer;
   background: linear-gradient(270deg, #FFCB33 0%, #FF9B17 100%);
   transition: background 250ms ease-in-out, transform 150ms ease;
+
+  &.is-slim {
+    padding: 0.5rem 1rem;
+    border-radius: 17.5px;
+  }
 }

@@ -3,15 +3,18 @@
 @import "mixins";
 // local fonts disabled, connected Google Fonts CDN
 @import "fonts";
-@import "libs";
 @import "vars";
+@import "libs";
 
 @import "base/global";
 @import "layout/header";
 @import "components/buttons";
 @import "components/forms";
 @import "components/checked-list";
+@import "components/tabs";
+@import "components/tables";
 @import "sections/head";
+@import "sections/products";
 
 
 @import "media"; // Always at the end
