@@ -25,7 +25,7 @@
     min-height: $spacer * 6;
     padding: 0;
     border: 4px solid transparent;
-    border-radius: 9px !important;
+    border-radius: $global-bd-radius !important;
     box-shadow: 0 0 26px 0 rgba(0,0,0,0.2);
     font-size: rem(22px);
   }
