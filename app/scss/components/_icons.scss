@@ -1,0 +1,60 @@
+
+i.icon {
+  display: inline-block;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &-phone {
+    background-image: url(../../img/icons/phone.svg);
+  }
+
+  &-location {
+    background-image: url(../../img/icons/location.svg);
+  }
+
+  &-email {
+    background-image: url(../../img/icons/mail.svg);
+  }
+
+  &-site {
+    background-image: url(../../img/icons/site.svg);
+  }
+
+  &.social {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+  }
+
+  &-facebook {
+    background-image: url(../../img/icons/facebook.svg);
+  }
+
+  &-vk {
+    background-image: url(../../img/icons/vk.svg);
+
+  }
+
+  &-youtube {
+    background-image: url(../../img/icons/youtube.svg);
+
+  }
+
+  &-instagram {
+    background-image: url(../../img/icons/instagram.svg);
+  } 
+
+  &-star {
+    width: 13px;
+    min-width: 13px;
+    height: 13px;
+    background-image: url(../../img/icons/star-transparent.png);
+
+    &.is-filled {
+      background-image: url(../../img/icons/star-filled.png);
+    }
+  }
+}

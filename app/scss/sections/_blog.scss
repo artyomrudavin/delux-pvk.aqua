@@ -1,0 +1,27 @@
+.blog-section {
+  .card {
+    &__img-wrapper {
+      position: relative;
+    }
+
+    &__title-wrapper {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: rem(16px);
+      color: #ffffff;
+    }
+    
+    &__title,
+    &__date,
+    &__text {
+      font-size: rem(14px);
+    }
+
+    &__title {
+      max-width: 210px;
+    }
+  }
+}

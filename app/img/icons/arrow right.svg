@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="16px" viewBox="0 0 23 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>3FBB6A1B-8FBD-4D56-8ED8-F0FBA136C2C0@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AquaGradus-Deluxe-landing-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AquaGradus-DeLuxe-landing-" transform="translate(-609.000000, -6134.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="info-posts" transform="translate(389.000000, 5796.000000)">
+                <g id="arrow-right" transform="translate(231.500000, 346.000000) scale(-1, 1) translate(-231.500000, -346.000000) translate(220.000000, 338.000000)">
+                    <path d="M20.8,6.4 L5.44,6.4 L9.136,2.704 C9.4512,2.3888 9.6,2.0128 9.6,1.6 C9.6,0.8128 8.9496,0 8,0 C7.5752,0 7.2048,0.1544 6.896,0.464 L0.5296,6.8304 C0.2672,7.0928 0,7.4168 0,8 C0,8.5832 0.2232,8.864 0.5168,9.1576 L6.896,15.536 C7.2048,15.8456 7.5752,16 8,16 C8.9504,16 9.6,15.1872 9.6,14.4 C9.6,13.9872 9.4512,13.6112 9.136,13.296 L5.44,9.6 L20.8,9.6 C21.6832,9.6 22.4,8.8832 22.4,8 C22.4,7.1168 21.6832,6.4 20.8,6.4 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

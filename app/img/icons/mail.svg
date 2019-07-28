@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>7B85C4EB-08A7-430A-A198-B387FBAC51C9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AquaGradus-Deluxe-landing-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AquaGradus-DeLuxe-landing-" transform="translate(-882.000000, -7115.000000)">
+            <g id="mail" transform="translate(882.000000, 7081.000000)">
+                <g id="icons/mail" transform="translate(0.000000, 34.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="12" cy="12" r="12"></circle>
+                    <g id="email" transform="translate(4.000000, 6.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M14.59375,0 L1.40625,0 C0.6318125,0 0,0.631125 0,1.40625 L0,10.78125 C0,11.55375 0.629,12.1875 1.40625,12.1875 L14.59375,12.1875 C15.36625,12.1875 16,11.5585 16,10.78125 L16,1.40625 C16,0.63375 15.371,0 14.59375,0 Z M14.3995625,0.9375 L8.0298125,7.30728125 L1.60496875,0.9375 L14.3995625,0.9375 Z M0.9375,10.587125 L0.9375,1.59590625 L5.45246875,6.07215625 L0.9375,10.587125 Z M1.60040625,11.25 L6.11821875,6.7321875 L7.70125,8.301625 C7.8845,8.4833125 8.18021875,8.48271875 8.36271875,8.3001875 L9.90625,6.75665625 L14.3995938,11.25 L1.60040625,11.25 Z M15.0625,10.5870938 L10.5691563,6.09375 L15.0625,1.600375 L15.0625,10.5870938 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

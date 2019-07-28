@@ -33,12 +33,12 @@
 	<header class="l-header d-flex align-items-center">
 		<div class="container">
 			<div class="d-flex justify-content-between">
-				<a href="/" class="logo">
+				<a href="/" class="l-header__logo">
 					<img src="img/Logo/AquaGradusEng1-1@1x.svg" alt="logo" class="img-fluid">
 				</a>
 				<div class="d-flex align-items-center justify-content-between">
 					<div class="d-flex align-items-center mr-3">
-						<i class="icon-phone mr-3"></i>
+						<i class="icon icon-phone mr-3"></i>
 						<div class="d-flex flex-column phone-wrapper">
 							<span class="phone-number">+38 (050) 394-25-81</span>
 							<span class="phone-number">+38 (067) 261-16-48</span>
@@ -58,7 +58,7 @@
 		<section class="head-section d-flex flex-column is-hero-bg is-full-screen">
 			<div class="container d-flex flex-1 flex-column">
 				<div class="row d-flex flex-1">
-					<div class="col-md-9 d-flex flex-1 flex-column justify-content-center">
+					<div class="col-md-12 d-flex flex-1 flex-column justify-content-center">
 						<div class="row">
 							<div class="col-md-12">
 								<h1 class="section-title mt-3 mb-3">
@@ -68,19 +68,19 @@
 								</h1>
 							</div>
 							<div class="col-md-12">
-								<p class="section-subtitle mt-0 mb-5 mw-500">
+								<p class="section-subtitle mt-0 mb-7 mw-500">
 									получите лучшую цену за 10 минут и книгу с рецептами в подарок!
 								</p>
 							</div>
 						</div>
 						<div class="row d-flex align-items-center">
-							<div class="col-md-4">
+							<div class="col-md-4 mb-5 mb-md-0">
 								<div class="checked-list-item">
 									<i class="checked-list-item__icon"></i>
 									<span>Исполнение заказа от 3х дней</span>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 mb-5 mb-md-0">
 								<div class="checked-list-item">
 									<i class="checked-list-item__icon"></i>
 									<span>Продукция собственного производства</span>
@@ -94,20 +94,23 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="cta-wrapper">
-							<p class="section-subtitle">Оставьте заявку и получите дополнительную скидку 10% на заказ!
-							</p>
-							<form action="" class="make-order">
-								<input type="tel" required>
-								<input type="text" required>
+							<p class="section-subtitle text-center">Оставьте заявку и получите дополнительную скидку 10% на заказ!</p>
+							<form action=""
+								class="d-flex flex-column flex-md-row align-items-stretch align-items-md-center is-transparent is-flat p-5 px-md-6"
+							>
+								<input class="flex-1 mr-md-4 mb-4 m-md-0" type="text" placeholder="Введите Имя" required>
+								<input class="flex-1 mr-md-4 mb-4 m-md-0" type="tel" placeholder="+38 (_ _ _) _ _ _ - _ _ _ - _ _ "
+									required>
 								<button class="btn-primary">заказать звонок</button>
 							</form>
+							<p class="cta-wrapper__privacy text-center">Нажимая кнопку, вы соглашаетесь с Политикой конфедициальности
+								и обработкой
+								персональных данных</p>
 						</div>
-						<p>Нажимая кнопку, вы соглашаетесь с Политикой конфедициальности и обработкой персональных данных</p>
 					</div>
 				</div>
 			</div>
@@ -116,24 +119,24 @@
 		<!-- Products Section Start -->
 		<section class="products-section">
 			<div class="container">
-				<h2 class="section-title text-center mt-0 mb-5">
+				<h2 class="section-title text-center mt-0 mb-7">
 					Новая первоклассная продукция<br />&nbsp;
 					по изготовлению элитного алкоголя</h2>
-				<ul class="products-section__tabs nav nav-pills nav-justified mb-5 row" role="tablist">
+				<ul class="products-section__tabs nav nav-pills nav-justified mb-7 row" role="tablist">
 					<li class="nav-item col-md-4">
-						<a class="nav-link is-large active" id="pills-deluxe-tab" data-toggle="pill" href="#pills-deluxe" role="tab"
-							aria-controls="pills-deluxe" aria-selected="true">
+						<a class="nav-link is-large is-shadow-lg active" id="pills-deluxe-tab" data-toggle="pill"
+							href="#pills-deluxe" role="tab" aria-controls="pills-deluxe" aria-selected="true">
 							Аппарат ДеЛюкс
 						</a>
 					</li>
 					<li class="nav-item col-md-4">
-						<a class="nav-link is-large" id="pills-pvk-tab" data-toggle="pill" href="#pills-pvk" role="tab"
+						<a class="nav-link is-large is-shadow-lg" id="pills-pvk-tab" data-toggle="pill" href="#pills-pvk" role="tab"
 							aria-controls="pills-pvk" aria-selected="false">
 							Аппарат ДеЛюкс ПВК
 						</a>
 					</li>
 					<li class="nav-item col-md-4">
-						<a class="nav-link is-large" id="pills-xxl-tab" data-toggle="pill" href="#pills-xxl" role="tab"
+						<a class="nav-link is-large is-shadow-lg" id="pills-xxl-tab" data-toggle="pill" href="#pills-xxl" role="tab"
 							aria-controls="pills-xxl" aria-selected="false">
 							Аппарат ДеЛюкс ПВК XXL
 						</a>
@@ -143,7 +146,7 @@
 					<!-- Deluxe Start -->
 					<div class="tab-pane fade show active device-preview" id="pills-deluxe" role="tabpanel"
 						aria-labelledby="pills-deluxe-tab">
-						<div class="row mb-5">
+						<div class="row mb-7">
 							<div class="col-md-4">
 								<img src="img/@1x/deluxe img.png" alt="deluxe" class="device-preview__img img-fluid">
 							</div>
@@ -216,7 +219,7 @@
 							</div>
 						</div>
 						<!-- Deluxe Specifications Tabs Start -->
-						<nav class="mb-3">
+						<nav class="mb-4">
 							<div class="nav nav-tabs" id="deluxe-product-tabs" role="tablist">
 								<a class="nav-item nav-link active" id="deluxe-specifications-tab" data-toggle="tab"
 									href="#deluxe-specifications" role="tab" aria-controls="deluxe-specifications" aria-selected="true">
@@ -241,6 +244,7 @@
 							</div>
 						</nav>
 						<div class="tab-content">
+							<!-- Deluxe Specification Table Start -->
 							<div class="tab-pane fade show active" id="deluxe-specifications" role="tabpanel"
 								aria-labelledby="deluxe-specifications-tab">
 								<div class="table-responsive-md">
@@ -288,20 +292,176 @@
 									</table>
 								</div>
 							</div>
+							<!-- Deluxe Specification Table End -->
+							<!-- Deluxe Instruction Table Start -->
 							<div class="tab-pane fade" id="deluxe-instruction" role="tabpanel"
 								aria-labelledby="deluxe-instruction-tab">
-								Принцип работы
+								<div class="row mb-4">
+									<div class="col-md-6">
+										<div class="card instruction-card is-shadow-lg">
+											<div class="card-body">
+												<div class="instruction-card__img-wrapper">
+													<img class="img-fluid" src="img/@1x/zaglushka.png" alt="image">
+												</div>
+												<div class="instruction-card__title mb-3">
+													Режим брожения
+												</div>
+												<p>В режиме брожения рабочая емкость может использоваться для брожения - приготовления браги,
+													пива или вина.
+												</p>
+												<p>Возьмите гидрозатвор с корком и установите его крышку в отверстие 2". Гидрозатвор свободно
+													выпускает углекислый газ, выделяемый дрожжами, но при этом не пропускает в бак плесень,
+													надежно защищая напиток от порчи.
+												</p>
+												<p>
+													Таким образом можно приготовить сырье для перегонки прямо в баке, дополнительные емкости
+													больше не нужны!
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="card instruction-card is-shadow-lg">
+											<div class="card-body">
+												<div class="instruction-card__img-wrapper">
+													<img class="img-fluid" src="img/@1x/zaglushka.png" alt="image">
+												</div>
+												<div class="instruction-card__title mb-3">
+													Режим быстрой (подстилл) перегонки
+												</div>
+												<p>В режиме быстрой перегонки получают деревенский самогон и подобные напитки, а также
+													спирт-сырец для повторной перегонки. Колонна и дефлегматор отделяется, и пары сразу же после
+													испарения конденсируются в охладителе, обеспечивая рекордную скорость перегонки.
+												</p>
+												<p>7-трубное охлаждение обеспечивает в 4 раза большую производительность, чем в 1-трубных
+													аппаратах и в 3 раза большей, чем в аппаратах со змеевиками.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="card instruction-card is-shadow-lg">
+											<div class="card-body">
+												<div class="instruction-card__img-wrapper">
+													<img class="img-fluid" src="img/@1x/zaglushka.png" alt="image">
+												</div>
+												<div class="instruction-card__title mb-3">
+													Режим укрепления
+												</div>
+												<p>Режим укрепления используется для приготовления напитков с сохранением аромата сырья
+													крепостью около 92 градусов, с отделением всех посторонних запахов.В этом режиме активно
+													используется возвратный охладитель или дефлегматор. В нем создается обратный поток спирта,
+													который, стекая вниз, забирает из паров все примеси с лишним запахом.
+												</p>
+												<p>
+													Насадка Панченкова, установленная в колонне, увеличивает очищающие и укрепляющие свойства за
+													счет увеличения площади взаимодействия возвратного спирта и восходящих паров. Очищенные
+													спиртовые пары, поднимаясь по колонне, забирают из возвратного потока спирт, за счет чего
+													дополнительно укрепляются до 92 градусов.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="card instruction-card is-shadow-lg">
+											<div class="card-body">
+												<div class="instruction-card__img-wrapper">
+													<img class="img-fluid" src="img/@1x/zaglushka.png" alt="image">
+												</div>
+												<div class="instruction-card__title mb-3">
+													Режим изготовления виски
+												</div>
+												<p>Режим перегонки сброженного солода - пророщенного ячменного, ржаного, пшеничного зерна -
+													требует особого подхода. Злаки при брожении выделяют сернистые соединения с неприятным запахом
+													и задача аппарата - их качественно отделить. Однако при этом - сохранить приятный благородный
+													«хлебный» оттенок, за который так ценится скотч и виски.
+												</p>
+												<p>
+													С этой задачей успешно справляется медные кольца Рашига (приобретается отдельно). Медь
+													связывает сернистые соединения, однако аромат виски сохраняет в первозданном виде.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
+							<!-- Deluxe Instruction Table End -->
+							<!-- Deluxe Complect Start -->
 							<div class="tab-pane fade" id="deluxe-complect" role="tabpanel" aria-labelledby="deluxe-complect-tab">
 								Комплектация
 							</div>
+							<!-- Deluxe Complect End -->
+							<!-- Deluxe Video Start -->
 							<div class="tab-pane fade" id="deluxe-video" role="tabpanel" aria-labelledby="deluxe-video-tab">
-								Видео
+								<div class="product-video d-flex flex-column">
+									<h3 class="product-video__title mb-3">Посмотрите видео-обзор аппарата ДеЛюкс!</h3>
+									<div class="product-video__container mb-4">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/6wkIrdj9fiA" frameborder="0"
+											allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+										</iframe>
+									</div>
+									<a href="#" class="btn-primary align-self-center">смотреть все видео AquaGradus на YouTube</a>
+									<!-- <button class="btn-primary">смотреть все видео AquaGradus на YouTube</button> -->
+								</div>
 							</div>
+							<!-- Deluxe Video End -->
+							<!-- Deluxe Testimonials Start -->
 							<div class="tab-pane fade" id="deluxe-testimonials" role="tabpanel"
 								aria-labelledby="deluxe-testimonials-tab">
-								Отзывы
+								<div class="product-testimonial d-flex flex-column">
+									<h3 class="product-testimonial__title mb-3">Посмотрите видео-обзор аппарата ДеЛюкс!</h3>
+									<div class="row product-testimonial__container mb-4">
+										<div class="col-md-12">
+											<div class="card product-testimonial__card is-shadow-md">
+												<div class="card-body">
+													<div class="d-flex justify-content-between mb-3">
+														<div class="client-info flex-1">
+															<div class="client-info__avatar float-left mr-2">
+																<img class="img-fluid rounded-circle" src="img/@1x/avatar.jpg" alt="avatar1">
+															</div>
+															<div class="client-info__wrapper mb-3">
+																<div class="client-info__title d-flex align-items-center mb-2">
+																	<div class="mr-3">Константин Константиновский</div>
+																	<div class="rating">
+																		<i class="icon icon-star is-filled"></i>
+																		<i class="icon icon-star is-filled"></i>
+																		<i class="icon icon-star is-filled"></i>
+																		<i class="icon icon-star is-filled"></i>
+																		<i class="icon icon-star"></i>
+																	</div>
+																</div>
+																<div class="client-info__subtitle">
+																	<span>г. Харьков</span>
+																	<span>12 июля 2019</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<p class="product-testimonial__text mb-0">
+														Всем добрый день! Решил поделиться полезной информацией ,по поводу своего приобретения.Давно
+														хотел купить хороший дистиллятор, так как меня очень волнует качество воды,которую мы пьем!
+														Изучив много информации,по данному вопросу, остановил свой выбор на дистиляторе компании
+														Акваградус.Просмотрев все имеющиеся на сайте варианты, сделал выбор в пользу модели Делюкс.
+														Оформив заказ меня приятно удивила оперативность сотрудников.Менеджер компании связался со
+														мной в течении 10 минут!!Пообщавшись с сотрудником ,я ещё раз,убедился в том что сделал
+														правильный выбор <br />
+														Посылку получил уже через 2 дня-это тоже меня приятно удивило!!<br />
+														С моего согласия меня подключили в группу в вайбере,где много полезной информации.<br />
+														Вообщем я очень доволен своим новым приобретением!!!;)И поэтому могу смело всем
+														рекомендовать компанию Акваградус!!!
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12"></div>
+										<div class="col-md-12"></div>
+									</div>
+									<a href="#" class="btn-primary align-self-center">смотреть все видео AquaGradus на YouTube</a>
+								</div>
 							</div>
+							<!-- Deluxe Testimonials End -->
 						</div>
 						<!-- Deluxe Specifications Tabs End -->
 					</div>
@@ -317,15 +477,15 @@
 		</section>
 		<!-- Products Section End -->
 		<!-- Reasons Section Start -->
-		<section>
-			<div class="container reason-cards">
-				<h2 class="section-title text-center mt-0 mb-5">
+		<section class="reason-section">
+			<div class="container cards-container">
+				<h2 class="section-title text-center mt-0 mb-7">
 					<span class="is-primary-color">10 причин</span>&nbsp;приобрести аппартат</br>
 					серии&nbsp;<span class="is-primary-color">ДеЛюкс</span>&nbsp;от AquaGradus™
 				</h2>
 				<div class="row">
 					<div class="col-md-4">
-						<div class="card">
+						<div class="card is-shadow-lg mb-xl-8 mb-7">
 							<span class="card__number">1</span>
 							<div class="card-body">
 								<h4 class="card__title">Не ржавеет и не окисляется</h4>
@@ -336,7 +496,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="card">
+						<div class="card is-shadow-lg mb-xl-8 mb-7">
 							<span class="card__number">2</span>
 							<div class="card-body">
 								<h4 class="card__title">Мобильность</h4>
@@ -348,7 +508,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="card">
+						<div class="card is-shadow-lg mb-xl-8 mb-7">
 							<span class="card__number">3</span>
 							<div class="card-body">
 								<h4 class="card__title">Кламповое соединение</h4>
@@ -362,7 +522,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div>
-							<div class="card">
+							<div class="card is-shadow-lg mb-xl-8 mb-7">
 								<span class="card__number">4</span>
 								<div class="card-body">
 									<h4 class="card__title">Цифровой термометр в комплекте</h4>
@@ -373,7 +533,7 @@
 							</div>
 						</div>
 						<div>
-							<div class="card">
+							<div class="card is-shadow-lg mb-xl-8 mb-7">
 								<span class="card__number">6</span>
 								<span class="card__number d-md-none">5</span>
 								<div class="card-body">
@@ -387,7 +547,7 @@
 					<div class="col-md-4 d-none d-md-block">image</div>
 					<div class="col-md-4">
 						<div>
-							<div class="card">
+							<div class="card is-shadow-lg mb-xl-8 mb-7">
 								<span class="card__number">5</span>
 								<span class="card__number d-md-none">6</span>
 								<div class="card-body">
@@ -400,7 +560,7 @@
 							</div>
 						</div>
 						<div>
-							<div class="card">
+							<div class="card is-shadow-lg mb-xl-8 mb-7">
 								<div class="card-body">
 									<span class="card__number">7</span>
 
@@ -415,7 +575,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<div class="card">
+						<div class="card is-shadow-lg mb-7">
 							<span class="card__number">8</span>
 							<div class="card-body">
 								<h4 class="card__title">Кран для слива барды</h4>
@@ -425,7 +585,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="card">
+						<div class="card is-shadow-lg mb-7">
 							<span class="card__number">9</span>
 
 							<div class="card-body">
@@ -438,7 +598,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="card">
+						<div class="card is-shadow-lg mb-7">
 							<span class="card__number">10</span>
 
 							<div class="card-body">
@@ -453,47 +613,432 @@
 			</div>
 		</section>
 		<!-- Reasons Section End -->
-		<div class="container">
-
-
-		</div>
 		<!-- Presents CTA Section Start -->
-		<section>
-
+		<section class="presents-cta is-hero-bg">
+			<div class="container">
+				<h2 class="section-title mb-4">Закажите любой аппарат AquaGradus™ серии ДеЛюкс
+					и получите в подарок:</h2>
+				<div class="row d-flex align-items-center mb-4">
+					<div class="col-md-3">
+						<div class="checked-list-item">
+							<i class="checked-list-item__icon"></i>
+							<span>Насадку
+								Панченкова 5м</span>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="checked-list-item">
+							<i class="checked-list-item__icon"></i>
+							<span>Охлаждение делюкс</span>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="checked-list-item">
+							<i class="checked-list-item__icon"></i>
+							<span>Насадку
+								Панченкова 5м</span>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="checked-list-item">
+							<i class="checked-list-item__icon"></i>
+							<span>Охлаждение делюкс</span>
+						</div>
+					</div>
+				</div>
+				<form action="" class="white-bg d-flex flex-column flex-md-row align-items-center is-primary-shadow p-4">
+					<input class="flex-1 mr-4" type="text" placeholder="Введите Имя" required>
+					<input class="flex-1 mr-4" type="tel" placeholder="+38 (_ _ _) _ _ _ - _ _ _ - _ _ " required>
+					<button class="btn-primary">получить подарок</button>
+				</form>
+			</div>
 		</section>
 		<!-- Presents CTA Section End -->
 		<!-- Leader Section Start -->
-		<section>
-
+		<section class="leader-section">
+			<div class="container">
+				<h2 class="section-title">Почему мы <span class="is-primary-color">лучшие</span> в своем деле? </h2>
+				<div class="row cards-wrapper">
+					<div class="col-md-6 col-xl-3 mb-8 mb-xl-0">
+						<div class="card is-shadow-md">
+							<div class="card-body d-flex flex-column justify-content-center">
+								<h3 class="card__title">
+									Наилучшее
+									качество
+								</h3>
+								<p class="card__descr">Поддтверждено
+									сертификатами качества</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 mb-8 mb-xl-0">
+						<div class="card is-shadow-md">
+							<div class="card-body d-flex flex-column justify-content-center">
+								<h3 class="card__title">
+									Широкий
+									ассортимент
+								</h3>
+								<p class="card__descr">Фабричное производство
+									открытого типа</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 mb-8 mb-md-0">
+						<div class="card is-shadow-md">
+							<div class="card-body d-flex flex-column justify-content-center">
+								<h3 class="card__title">
+									Постпродажная
+									поддержка
+								</h3>
+								<p class="card__descr">Фабричное производство
+									открытого типа</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3">
+						<div class="card is-shadow-md">
+							<div class="card-body d-flex flex-column justify-content-center">
+								<h3 class="card__title">
+									Система
+									лояльности
+								</h3>
+								<p class="card__descr">Фабричное производство
+									открытого типа</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="section-title mb-4">
+					AquaGradus™ -
+					<span class="is-primary-color">лидер</span>&nbsp;
+					среди производителей по
+					изготовлению оборудования для домашнего&nbsp;
+					<span class="is-primary-color">самогоноварения</span>
+				</h2>
+				<img class="leader-section__img img-fluid float-right" src="img/@1x/man img.png" alt="image">
+				<p class="leader-section__text">AquaGradus™ не только интернет магазин, но и производитель оборудования. Наша
+					специализация: самогонные
+					аппараты, домашние пивоварни, сыроварни и коптильни.
+				</p>
+				<p class="leader-section__text">
+					Выбирая нас, вы выбираете проверенного производителя, качественное оборудование и четкие сроки доставки.
+				</p>
+				<p class="leader-section__text">
+					Наши аппараты сконструированы так, чтобы даже новичку было просто получить хороший результат, и была
+					возможность расширять арсенал устройств по мере возрастания винокурных амбиций.
+				</p>
+				<p class="leader-section__text">
+					Технологичность, надежность, презентабельный и узнаваемый внешний вид. Всего этого компания «AquaGradus™»
+					достигла путём непрерывной кропотливой работы и продолжает двигаться дальше.
+				</p>
+			</div>
 		</section>
 		<!-- Leader Section End -->
 		<!-- How We Work Section Start -->
-		<section>
-
+		<section class="how-we-work">
+			<div class="container">
+				<h2 class="section-title text-center mb-4">
+					Как мы работаем?
+				</h2>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="step d-flex flex-column align-items-center">
+							Вы оставляете заявку на сайте или заказываете обратный звонок
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="step d-flex flex-column align-items-center">
+							Менеджер уточняет адрес и сообщит дату доставки. Передает заказ на производство
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="step d-flex flex-column align-items-center">
+							Аппарат производится, проходит проверку в отделе качества.
+							Комплектуется и отправляется транспортной компанией
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="step d-flex flex-column align-items-center">
+							Доставка за 1 - 3 дня в одно из 2300 отделений Новой Почты по всей Украине. <span
+								class="is-primary-color">При заказе до 07.08 доставка Бесплатна!</span>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="step d-flex flex-column align-items-center">
+							При получении, тщательно проверьте посылку на наличие транспортных повреждений и целостности упаковки.
+							Только после этого оплатите картой или наличными
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="step d-flex flex-column align-items-center">
+							Аппарат АкваГрадус™ Компакт - Домашние напитки до 90°; Гарантия 5 лет; Бесплатная консультация и поддержка
+							клиентов!
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- How We Work Section End -->
-		<!-- Info Section Start -->
-		<section>
+		<!-- Blog Section Start -->
+		<section class="blog-section">
+			<div class="container d-flex flex-column align-items-center">
+				<h2 class="section-title mb-4">
+					Полезная информация
+				</h2>
+				<p class="section-subtitle text-center mt-0 mb-7">
+					Здесь мы рассказываем как подобрать нужный аппарат,</br>
+					делимся полезными советами, рецептами, новостями и акциями
+				</p>
+				<div class="row blog-cards mb-7">
+					<div class="col-sm-6 col-lg-3 mb-7 mb-lg-0">
+						<div class="card is-shadow-lg">
+							<div class="card__img-wrapper">
+								<img class="card-img-top" src="img/@1x/info 1.png" alt="Card image cap">
+								<div class="card__title-wrapper">
+									<h5 class="card__title">Рецепт зернового виски в
+										домашних условиях</h5>
+									<span class="card__date">
+										15.07.2019
+									</span>
+								</div>
+							</div>
 
+							<div class="card-body">
+								<p class="card__text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a
+									elementum
+									rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. </p>
+								<a href="#" class="arrow-link float-right">
+									читать далее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3 mb-7 mb-lg-0">
+						<div class="card is-shadow-lg">
+							<div class="card__img-wrapper">
+								<img class="card-img-top" src="img/@1x/info 2.png" alt="Card image cap">
+								<div class="card__title-wrapper">
+									<h5 class="card__title">Рецепт крафтового пива в домашних условиях</h5>
+									<span class="card__date">
+										15.07.2019
+									</span>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<p class="card__text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a
+									elementum
+									rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. </p>
+								<a href="#" class="arrow-link float-right">
+									читать далее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3 mb-7 mb-sm-0">
+						<div class="card is-shadow-lg">
+							<div class="card__img-wrapper">
+								<img class="card-img-top" src="img/@1x/info 3.png" alt="Card image cap">
+								<div class="card__title-wrapper">
+									<h5 class="card__title">Рецепт бурбона в
+										домашних условиях</h5>
+									<span class="card__date">
+										15.07.2019
+									</span>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<p class="card__text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a
+									elementum
+									rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. </p>
+								<a href="#" class="arrow-link float-right">
+									читать далее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card is-shadow-lg">
+							<div class="card__img-wrapper">
+								<img class="card-img-top" src="img/@1x/info 4.png" alt="Card image cap">
+								<div class="card__title-wrapper">
+									<h5 class="card__title">Рецепт скотча в домашних условиях</h5>
+									<span class="card__date">
+										15.07.2019
+									</span>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<p class="card__text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a
+									elementum
+									rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. </p>
+								<a href="#" class="arrow-link float-right">
+									читать далее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn-primary" target="_blank" rel="noopener">смотреть все</a>
+			</div>
 		</section>
 		<!-- Info Section End -->
 		<!-- Contact Section Start -->
-		<section>
-
+		<section class="contact-section is-hero-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 d-flex flex-column justify-content-center">
+						<h2 class="section-title mb-4">
+							Есть вопросы?<br />
+							—&nbsp;<span class="is-primary-color">Напишите нам!</span>
+						</h2>
+						<div class="checked-list-item mb-4">
+							<i class="checked-list-item__icon"></i>
+							<span>Ответим на любые вопросы о продукции, стоимости и сроках</span>
+						</div>
+						<div class="checked-list-item mb-4">
+							<i class="checked-list-item__icon"></i>
+							<span>Ответим на любые вопросы о продукции, стоимости и сроках</span>
+						</div>
+						<div class="checked-list-item mb-4">
+							<i class="checked-list-item__icon"></i>
+							<span>Рассчитаем скидку в зависимости
+								от модели и объема бака</span>
+						</div>
+					</div>
+					<div class="col-md-6 d-flex flex-column justify-content-center">
+						<form action="" class="contact-section__form white-bg d-flex flex-column is-shadow-lg p-5 px-lg-8">
+							<h3 class="text-center mb-3">Напишите нам и мы обязательно<br />
+								ответим в течение 1го дня</h3>
+							<input class="flex-1 mb-3" type="text" placeholder="Введите Имя" required>
+							<input class="flex-1 mb-3" type="tel" placeholder="+38 (_ _ _) _ _ _ - _ _ _ - _ _ " required>
+							<textarea class="mb-3" name="question" rows="5" placeholder="Ваш вопрос" required></textarea>
+							<button class="btn-primary">получить подарок</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Contact Section End -->
 		<!-- Map Section Start -->
-		<section>
+		<section class="map-section">
+			<div class="container">
+				<h2 class="section-title mb-4">
+					Свяжитесь с нами любым<br />
+					<span class="is-primary-color">удобным</span>
+					способом
+				</h2>
+				<div class="row mb-4">
+					<div class="col-lg-3 col-md-6">
+						<div class="contact-widget">
+							<div class="contact-widget__title mb-3">Где мы находимся</div>
+							<div class="d-flex">
+								<i class="icon icon-location mr-2"></i>
+								<div class="contact-widget__text">
+									<p class="mb-2">г. Харьков, ул. Пушкинская 3</p>
+									<p>Пн-Вс с 9-00 до 20-00 <br />
+										Без выходных</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="contact-widget">
+							<div class="contact-widget__title mb-3">Телефон</div>
+							<div class="d-flex">
+								<i class="icon icon-phone mr-2"></i>
+								<div class="contact-widget__text">
+									<p class="mb-2">
+										<a href="tel:+380502501053">+38 (050) 250-10-53</a>
+									</p>
+									<p>
+										<a href="tel:+380672612981">+38(067) 261-29-81</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="contact-widget">
+							<div class="contact-widget__title mb-3">Электронная почта, Cайт</div>
+							<div class="d-flex">
+								<i class="icon icon-email mr-2"></i>
+								<div class="contact-widget__text">
+									<p>
+										<a href="mailto:deluxe.aquagradus@gmail.com">deluxe.aquagradus@gmail.com</a></p>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="icon icon-site mr-2"></i>
+								<div class="contact-widget__text">
+									<p>
+										<a href="http://aquagradus.com" target="_blank" rel="noopener">aquagradus.com</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<div class="col-lg-2 col-md-6">
+						<div class="contact-widget">
+							<div class="contact-widget__title mb-3">Мы в соцсетях</div>
+							<div class="d-flex">
+								<a href="/" target="_blank" rel="noopener">
+									<i class="icon social icon-facebook mr-2"></i>
+								</a>
+								<a href="/" target="_blank" rel="noopener">
+									<i class="icon social icon-vk mr-2"></i>
+								</a>
+								<a href="/" target="_blank" rel="noopener">
+									<i class="icon social icon-youtube mr-2"></i>
+								</a>
+								<a href="/" target="_blank" rel="noopener">
+									<i class="icon social icon-instagram mr-2"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="map">
+				<script>
+					// Initialize and add the map
+					function initMap() {
+						// The location of Aquagradus
+						var aquagradus = { lat: 49.9920339, lng: 36.233336399999985 };
+						var markerIcon = `${location.href}/img/icons/map marker.svg`;
+						// The map, centered at Aquagradus
+						var map = new google.maps.Map(
+							document.getElementById('map'), { zoom: 17, center: aquagradus });
+						// The custom marker, positioned at Aquagradus
+						var marker = new google.maps.Marker({
+							position: aquagradus,
+							map: map,
+							icon: markerIcon
+						});
+					}
+				</script>
+				<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmTLQmLijTQHhe5vtIBzOupREghZN5kzg&callback=initMap">
+					</script>
+			</div>
 		</section>
 		<!-- Map Section End -->
 	</main>
 	<!-- Main End -->
 	<!-- Footer Start -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">Hey hey</div>
+	<footer class="l-footer">
+		<div class="container d-flex align-items-center justify-content-between">
+			<div class="d-flex align-items-center">
+				<a class="l-footer__logo" href="#">
+					<img class="img-fluid" src="img/Logo/AquaGradusEng1-1@1x.svg" alt="logo">™
+				</a>
+				2007-2019
+			</div>
+			<div>
+				<div class="float-right">Политика конфиденциальности</div>
 			</div>
 		</div>
 	</footer>

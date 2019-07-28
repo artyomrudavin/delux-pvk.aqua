@@ -1,0 +1,62 @@
+.leader-section {
+  counter-reset: card;
+
+  .cards-wrapper {
+    margin-top: rem(70px);
+    margin-bottom: rem(100px);
+  }
+
+  .card {
+    padding-top: rem(30px);
+
+    &::before {
+      position: absolute;
+      top: -#{rem(70px)};
+      left: rem(16px);
+      counter-increment: card;
+      content: counter(card);
+      font-size: rem(100px);
+      font-weight: 600;
+      color: $primary;
+    }
+
+    &__title {
+      font-size: rem(24px);
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 0;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 30%;
+        height: 2px;
+        background-color: $primary;
+        margin: rem(14px) 0;
+      }
+    }
+
+    &__descr {
+      font-size: rem(18px);
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      .card-body {
+        min-height: 155px;
+      }
+    }
+  }
+
+  &__img {
+    max-width: 400px;
+    margin-top: -#{rem(90px)};
+    margin-bottom: rem(10px);
+  }
+
+  &__text {
+    font-size: rem(18px);
+  }
+}

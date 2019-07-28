@@ -1,10 +1,81 @@
 input, textarea {
-  border: #666 1px solid;
   outline: none;
-  &:focus:required:invalid {
-    border-color: red;
+  // &:focus:required:invalid {
+  //   border-color: red;
+  // }
+  // &:required:valid {
+  //   border-color: green;
+  // }
+
+  @include media-breakpoint-down(lg) {
+    line-height: 1.33;  
   }
-  &:required:valid {
-    border-color: green;
+}
+
+form {
+  input,
+  textarea {
+    padding: rem(14px) rem(18px);
+    border: 2px solid rgba($grey, .5);
+    border-radius: $global-bd-radius;
+    background-color: #FFFFFF;
+    transition: border-color, color 0.2s ease-in-out;
+
+    &::placeholder {
+      color: $grey;
+    }
+
+    &:focus {
+      border-color: $primary;
+      color: $primary;
+    }
+
+    @include media-breakpoint-down(md) {
+      border-width: 1px;
+    }
+  }
+
+  textarea {
+    min-height: 100px;
+    max-height: 300px;
+  }
+
+  &.is-transparent {
+    width: 100%;
+    border-radius: rem(51px);
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: rem(23px) rem(40px);
+
+    @include media-breakpoint-down(sm) {
+      border-radius: rem($global-bd-radius);
+    }
+  }
+
+  &.is-flat {
+    input {
+      padding: rem(5px) 0;
+      border-color: #ffffff;
+      border-width: 0 0 2px 0;
+      border-radius: 0;
+      background-color: transparent;
+      color: #ffffff;
+      transition: border-color, color 0.2s ease-in-out;
+
+      &::placeholder {
+        color: #ffffff;
+      }
+
+      &:focus {
+        border-color: $primary;
+        color: $primary;
+      }
+    }
+  }
+
+  &.white-bg {
+    border: 2px solid $light-grey-bd-color;
+    border-radius: $global-bd-radius;
+    background-color: #FFFFFF;
+    color: $text-color;
   }
 }

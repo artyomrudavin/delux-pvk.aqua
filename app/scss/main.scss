@@ -8,7 +8,9 @@
 
 @import "base/global";
 @import "layout/header";
+@import "layout/footer";
 @import "components/buttons";
+@import "components/icons";
 @import "components/forms";
 @import "components/checked-list";
 @import "components/tabs";
@@ -16,5 +18,13 @@
 @import "components/cards";
 @import "sections/head";
 @import "sections/products";
+@import "sections/reason";
+@import "sections/presents";
+@import "sections/leader";
+@import "sections/how-we-work";
+@import "sections/blog";
+@import "sections/contact";
+@import "sections/map";
 
-@import "media"; // Always at the end
+
+@import "base/media"; // Always at the end

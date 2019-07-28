@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>4CA7949A-82CF-4AD0-9C2D-134924E5A723@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AquaGradus-Deluxe-landing-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AquaGradus-DeLuxe-landing-" transform="translate(-1368.000000, -7112.000000)" fill-rule="nonzero">
+            <g id="social" transform="translate(1368.000000, 7081.000000)">
+                <g id="facebook" transform="translate(0.000000, 31.000000)">
+                    <circle id="Oval" stroke="url(#linearGradient-1)" stroke-width="2" cx="15.8861593" cy="15.8861593" r="14.8861593"></circle>
+                    <path d="M19.8799292,16.5080354 L17.0452389,16.5080354 L17.0452389,26.8930265 L12.7504425,26.8930265 L12.7504425,16.5080354 L10.707823,16.5080354 L10.707823,12.8583363 L12.7504425,12.8583363 L12.7504425,10.4965664 C12.7504425,8.80764602 13.552708,6.16297345 17.083469,6.16297345 L20.2647788,6.17628319 L20.2647788,9.71893805 L17.956531,9.71893805 C17.5779115,9.71893805 17.0455221,9.90810619 17.0455221,10.7137699 L17.0455221,12.8617345 L20.2551504,12.8617345 L19.8799292,16.5080354 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

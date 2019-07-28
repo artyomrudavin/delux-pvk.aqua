@@ -1,6 +1,9 @@
 /* FONTS VARIABLES */
 
 $base-font-size: 16px;
+$tablet-font-size: 14px;
+$mobile-font-size: 12px;
+
 $font-family-base: 'Montserrat', sans-serif;
 // $font-family-base: $ff-montserrat-regular, sans-serif;
 
@@ -9,6 +12,8 @@ $font-family-second: 'Roboto', sans-serif;
 /* COLORS VARIABLES */
 $primary:    #FF9B17 !default;
 $text-color: #444444;
+$grey: #9D9D9D;
+$light-grey-bd-color: #F2F2F2;
 
 $global-bd-radius: 9px;
 
@@ -21,3 +26,4 @@ $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
 $gutter: $grid-gutter-width;
 
 $header-height: 90px;
+$sticky-header-height: 60px;

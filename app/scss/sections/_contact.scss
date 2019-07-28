@@ -1,0 +1,10 @@
+.contact-section {
+  background: url(../../img/hero-image.png),radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%);
+  background-size: cover;
+
+  @include media-breakpoint-up(lg) {
+    .checked-list-item {
+      font-size: rem(24px);
+    }
+  }
+}

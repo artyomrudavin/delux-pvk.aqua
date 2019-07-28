@@ -3,6 +3,10 @@
   color: #fff;
 }
 
+html {
+  font-size: $base-font-size;
+}
+
 html,
 body {
   margin: 0;
@@ -14,10 +18,9 @@ body {
   min-height: 100vh;
   min-width: 320px;
   position: relative;
-  line-height: 1.33;
+  line-height: 1.5;
   overflow-x: hidden;
   font-family: $font-family-base;
-  font-size: $base-font-size;
   color: $text-color;
 }
 
@@ -33,6 +36,12 @@ section {
   }
   &.is-hero-bg {
     color: #fff;
+  }
+
+  &:not(.is-hero-bg) {
+    @include media-breakpoint-down(md) {
+      padding: 2rem 0;
+    }
   }
 }
 
@@ -60,4 +69,39 @@ section {
 .section-subtitle {
   font-size: rem(24px);
   font-weight: 500;
+
+  @include media-breakpoint-down(md) {
+    font-size: 1.25rem;
+  }
+}
+
+.arrow-link {
+  display: flex;
+  align-items: center;
+  color: #444444;
+  font-size: rem(14px);
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    background: url('../../img/icons/arrow right.svg') no-repeat;
+    background-size: contain;
+    margin-left: rem(5px);
+  }
+}
+
+.is-shadow-lg {
+  box-shadow: 0 0 26px 0 rgba(0,0,0,.2);
+}
+
+.is-shadow-md {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.is-primary-shadow {
+  box-shadow: 0 0 12px 0 $primary;
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>FB556F32-DEC2-4228-A2E5-6B5315AC51DB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AquaGradus-Deluxe-landing-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AquaGradus-DeLuxe-landing-" transform="translate(-389.000000, -7115.000000)">
+            <g id="address" transform="translate(389.000000, 7081.000000)">
+                <g id="icons/pin" transform="translate(0.000000, 34.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="12" cy="12" r="12"></circle>
+                    <g id="location" transform="translate(6.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M5.81818182,15.9196667 L5.51890909,15.5226667 C5.29381818,15.2236667 0,8.16633333 0,5.33333333 C0,2.39266667 2.61018182,0 5.81818182,0 C9.02618182,0 11.6363636,2.39266667 11.6363636,5.33333333 C11.6363636,8.16633333 6.34254545,15.2236667 6.11745455,15.5226667 L5.81818182,15.9196667 Z M5.81818182,0.666666667 C3.01090909,0.666666667 0.727272727,2.76 0.727272727,5.33333333 C0.727272727,7.59566667 4.68545455,13.185 5.81818182,14.738 C6.95090909,13.185 10.9090909,7.59566667 10.9090909,5.33333333 C10.9090909,2.76 8.62545455,0.666666667 5.81818182,0.666666667 Z" id="Shape"></path>
+                        <path d="M5.77272727,8 C4.39451299,8 3.27272727,6.87857143 3.27272727,5.5 C3.27272727,4.12142857 4.39451299,3 5.77272727,3 C7.15094156,3 8.27272727,4.12142857 8.27272727,5.5 C8.27272727,6.87857143 7.15094156,8 5.77272727,8 Z M5.77272727,3.71428571 C4.78808442,3.71428571 3.98701299,4.51535714 3.98701299,5.5 C3.98701299,6.48464286 4.78808442,7.28571429 5.77272727,7.28571429 C6.75737013,7.28571429 7.55844156,6.48464286 7.55844156,5.5 C7.55844156,4.51535714 6.75737013,3.71428571 5.77272727,3.71428571 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

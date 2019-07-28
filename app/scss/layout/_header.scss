@@ -6,17 +6,24 @@
   color: #fff;
   background-color: transparent;
   z-index: 100;
+  transition: all 0.3s ease-in-out;
+
+  &.sticky {
+    height: $sticky-header-height;
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+
+  &__logo {
+    max-width: 155px;
+
+    @include media-breakpoint-down(sm) {
+      max-width: 115px;
+    }
+  }
 }
 
 .phone-wrapper {
   font-size: rem(14px);
   font-family: $font-family-second;
   font-weight: 500;
-}
-
-.icon-phone {
-  width: 24px;
-  height: 24px;
-  background: url(../../img/icons/phone.svg) no-repeat;
-  background-size: cover;
 }

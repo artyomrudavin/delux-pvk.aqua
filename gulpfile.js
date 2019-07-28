@@ -108,7 +108,7 @@ if (gulpVersion == 3) {
 
 	gulp.task('watch', taskArr, function() {
 		gulp.watch('app/'+syntax+'/**/*.'+syntax+'', ['styles']);
-		gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['scripts']);
+		gulp.watch(['libs/**/*.js', 'app/js/src/*.js'], ['scripts']);
 		gulp.watch('app/*.html', ['code']);
 		gmWatch && gulp.watch('app/img/_src/**/*', ['img']);
 	});
@@ -124,7 +124,7 @@ if (gulpVersion == 4) {
 
 	gulp.task('watch', function() {
 		gulp.watch('app/'+syntax+'/**/*.'+syntax+'', gulp.parallel('styles'));
-		gulp.watch(['libs/**/*.js', 'app/js/common.js'], gulp.parallel('scripts'));
+		gulp.watch(['libs/**/*.js', 'app/js/src/*.js'], gulp.parallel('scripts'));
 		gulp.watch('app/*.html', gulp.parallel('code'));
 		gmWatch && gulp.watch('app/img/_src/**/*', gulp.parallel('img')); // GraphicsMagick watching image sources if allowed.
 	});
