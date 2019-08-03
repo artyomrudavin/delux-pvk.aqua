@@ -17,7 +17,11 @@
     max-width: 155px;
 
     @include media-breakpoint-down(sm) {
-      max-width: 115px;
+      max-width: 120px;
+    }
+
+    @include media-breakpoint-down(xs) {
+      max-width: 100px;
     }
   }
 }

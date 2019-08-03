@@ -64,6 +64,12 @@ section {
 .section-title {
   font-size: rem(36px);
   font-weight: 700;
+
+  @include media-breakpoint-down(xs) {
+    br {
+      display: none;
+    }
+  }
 }
 
 .section-subtitle {
