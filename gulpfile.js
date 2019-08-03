@@ -47,7 +47,7 @@ gulp.task('scripts', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/bootstrapJs/bootstrap.min.js',
 		'app/libs/phonemask/phoneMask.min.js',
-		'app/libs/TouchSwipe/jquery.touchSwipe.min.js',
+		'app/libs/slick/slick.js',
 		'app/js/src/*.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))
@@ -107,7 +107,7 @@ if (gulpVersion == 3) {
 	gmWatch && taskArr.unshift('img');
 
 	gulp.task('watch', taskArr, function() {
-		gulp.watch('app/'+syntax+'/**/*.'+syntax+'', ['styles']);
+		gulp.watch('app/**/*.'+syntax+'', ['styles']);
 		gulp.watch(['libs/**/*.js', 'app/js/src/*.js'], ['scripts']);
 		gulp.watch('app/*.html', ['code']);
 		gmWatch && gulp.watch('app/img/_src/**/*', ['img']);
@@ -123,7 +123,7 @@ if (gulpVersion == 4) {
 	gulp.task('img', gulp.parallel('img1x', 'img2x'));
 
 	gulp.task('watch', function() {
-		gulp.watch('app/'+syntax+'/**/*.'+syntax+'', gulp.parallel('styles'));
+		gulp.watch('app/**/*.'+syntax+'', gulp.parallel('styles'));
 		gulp.watch(['libs/**/*.js', 'app/js/src/*.js'], gulp.parallel('scripts'));
 		gulp.watch('app/*.html', gulp.parallel('code'));
 		gmWatch && gulp.watch('app/img/_src/**/*', gulp.parallel('img')); // GraphicsMagick watching image sources if allowed.

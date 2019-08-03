@@ -79,6 +79,12 @@ section {
   @include media-breakpoint-down(md) {
     font-size: 1.25rem;
   }
+
+  @include media-breakpoint-down(xs) {
+    br {
+      display: none;
+    }
+  }
 }
 
 .arrow-link {
