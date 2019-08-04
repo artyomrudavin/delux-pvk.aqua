@@ -40,6 +40,12 @@ form {
     max-height: 300px;
   }
 
+  input {
+    &.is-thin {
+      padding: rem(10px) rem(15px);
+    }
+  }
+
   &.is-transparent {
     width: 100%;
     border-radius: rem(51px);

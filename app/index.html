@@ -44,7 +44,7 @@
 							<span class="phone-number">+38 (067) 261-16-48</span>
 						</div>
 					</div>
-					<button class="btn-primary is-slim">
+					<button class="btn-primary is-slim" data-toggle="modal" data-target="#orderModal">
 						заказать звонок
 					</button>
 				</div>
@@ -182,10 +182,13 @@
 									<!-- 30L Start -->
 									<div class="tab-pane fade show active device-details" id="pills-deluxe-30L" role="tabpanel"
 										aria-labelledby="pills-deluxe-30L-tab">
-										<div class="d-flex align-items-center mb-4">
-											<span class="device-details__price mr-2">Цена <b>11650₴</b></span>
-											<span class="device-details__old-price mr-4">12 290₴</span>
-											<button class="btn-primary">купить аппарат</button>
+										<div
+											class="d-flex flex-wrap justify-content-between justify-content-sm-start align-items-center mb-4">
+											<div class="d-flex align-items-center mb-sm-0 mb-2">
+												<span class="device-details__price mr-2">Цена <b>11650₴</b></span>
+												<span class="device-details__old-price mr-4">12 290₴</span>
+											</div>
+											<button class="btn-primary" data-toggle="modal" data-target="#orderModal">купить аппарат</button>
 										</div>
 										<p class="device-details__description">
 											Мы постепенно делаем модернизацию наших аппаратов и перегонных кубов. Для удобства работы с
@@ -1145,29 +1148,58 @@
 				</div>
 			</div>
 			<div id="map">
-				<script>
-					// Initialize and add the map
-					function initMap() {
-						// The location of Aquagradus
-						var aquagradus = { lat: 49.9920339, lng: 36.233336399999985 };
-						var markerIcon = `${location.href}/img/icons/map marker.svg`;
-						// The map, centered at Aquagradus
-						var map = new google.maps.Map(
-							document.getElementById('map'), { zoom: 17, center: aquagradus });
-						// The custom marker, positioned at Aquagradus
-						var marker = new google.maps.Marker({
-							position: aquagradus,
-							map: map,
-							icon: markerIcon
-						});
-					}
-				</script>
-				<script async defer
-					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmTLQmLijTQHhe5vtIBzOupREghZN5kzg&callback=initMap">
-					</script>
 			</div>
 		</section>
 		<!-- Map Section End -->
+
+		<!-- Order Modal Start -->
+		<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="icon icon-close"></i>
+					</button>
+					<div class="modal-body pt-0 pb-4">
+						<p class="modal__title text-center">
+							Оставьте свои контактные данные
+						</p>
+						<p class="modal__subtitle text-center">
+							Наш менеджер свяжется с Вами в течение 10 минут и проконсультирует по любому вопросу.
+						</p>
+						<form action=""
+							class="d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center px-3 py-6 px-lg-6">
+							<input class="is-thin flex-1 mr-lg-4 mb-3 m-lg-0" type="text" placeholder="Введите Имя" required>
+							<input class="is-thin flex-1 mr-lg-4 mb-3 m-lg-0" type="tel" placeholder="+38 ( _ _ _ ) _ _ _ - _ _ - _ _"
+								required>
+							<button class="btn-primary">заказать звонок</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Order Modal End  -->
+		<!-- Thank you Modal Start -->
+		<div class="modal fade thanks-modal" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="thanksModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-md">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="icon icon-close"></i>
+					</button>
+					<div class="modal-body pt-0 pb-10 text-center">
+						<i class="icon icon-checked is-large"></i>
+						<p class="modal__title">
+							Ваша заявка успешно принята!
+						</p>
+						<p class="modal__subtitle">
+							Наш менеджер свяжется с Вами в течение 10 минут.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Thank you Modal End  -->
 	</main>
 	<!-- Main End -->
 	<!-- Footer Start -->
@@ -1187,6 +1219,25 @@
 	<!-- Footer/ End -->
 	<!-- тут код -->
 	<script src="js/scripts.min.js"></script>
+	<script>
+		// Initialize and add the map
+		function initMap() {
+			// The location of Aquagradus
+			var aquagradus = { lat: 49.9920339, lng: 36.233336399999985 };
+			var markerIcon = `${location.href}/img/icons/map marker.svg`;
+			// The map, centered at Aquagradus
+			var map = new google.maps.Map(
+				document.getElementById('map'), { zoom: 17, center: aquagradus });
+			// The custom marker, positioned at Aquagradus
+			var marker = new google.maps.Marker({
+				position: aquagradus,
+				map: map,
+				icon: markerIcon
+			});
+		}
+	</script>
+	<!-- https://developers.google.com/maps/documentation/javascript/get-api-key -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 
 </html>

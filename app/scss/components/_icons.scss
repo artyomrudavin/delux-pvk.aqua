@@ -1,9 +1,9 @@
 
 i.icon {
   display: inline-block;
-  width: 24px;
-  min-width: 24px;
-  height: 24px;
+  width: rem(24px);
+  min-width: rem(24px);
+  height: rem(24px);
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -24,9 +24,9 @@ i.icon {
   }
 
   &.social {
-    width: 32px;
-    min-width: 32px;
-    height: 32px;
+    width: rem(32px);
+    min-width: rem(32px);
+    height: rem(32px);
   }
 
   &-facebook {
@@ -48,13 +48,28 @@ i.icon {
   } 
 
   &-star {
-    width: 13px;
-    min-width: 13px;
-    height: 13px;
+    width: rem(13px);
+    min-width: rem(13px);
+    height: rem(13px);
     background-image: url(../../img/icons/star-transparent.png);
 
     &.is-filled {
       background-image: url(../../img/icons/star-filled.png);
     }
   }
+
+  &-checked {
+    background-image: url(../../img/icons/check-big.svg);
+  }
+
+  &.is-large {
+    width: rem(115px);
+    min-width: rem(115px);
+    height: rem(115px);
+  }
+
+  &-close {
+    background-image: url(../../img/icons/close.svg);
+  }
+
 }

@@ -18,6 +18,7 @@ $(function () {
     prevArrow: false,
     nextArrow: false,
     infinite: true,
+    autoplay: 4000,
     speed: 300,
     swipeToSlide: true,
     slidesToShow: 2,
@@ -44,4 +45,11 @@ $(function () {
       // instead of a settings object
     ]
   });
+
+  $('form').on('submit', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // Replace code below to AJAX `success` function
+    $('#thanksModal').modal('show')
+  })
 });

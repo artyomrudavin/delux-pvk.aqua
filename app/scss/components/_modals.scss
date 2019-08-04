@@ -1,0 +1,24 @@
+.modal {
+  button.close {
+    align-self: flex-end;
+    padding: rem(20px);
+  }
+
+  &__title {
+      font-size: rem(24px);
+      font-weight: bold;
+  }
+
+  &__subtitle {
+    font-size: rem(18px);
+    max-width: 520px;
+    margin: auto;
+  }
+
+  .modal-md {
+    .modal-body {
+      max-width: 290px;
+      margin: auto;
+    }
+  }
+}

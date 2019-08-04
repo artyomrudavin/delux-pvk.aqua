@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="153px" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>60D2943C-ECC6-468A-ADB9-6E79CB1B5A61@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCB33" offset="0%"></stop>
+            <stop stop-color="#FF9B17" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="57" cy="57.5" rx="57" ry="57.5"></ellipse>
+        <filter x="-25.0%" y="-24.8%" width="150.0%" height="149.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AquaGradus-Deluxe-landing-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AquaGradus-DeLuxe-popup" transform="translate(-227.000000, -105.000000)">
+            <g id="check-big" transform="translate(246.000000, 124.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M74.918621,38.5761262 C72.9296583,37.3896591 70.3880787,38.093889 69.2445642,40.1542681 L53.5530584,68.3192133 L44.8139245,57.6897231 C43.2316538,55.8689913 41.1288304,54.925114 39.1428123,56.1115811 C37.1538496,57.3009908 36.3319588,60.1623742 37.6191079,61.9978183 L49.7802784,76.7889345 C50.6898551,77.9695167 51.7280157,78.677016 52.8132912,78.8787383 L52.8221252,78.8963931 L52.9333684,78.902278 C53.1790849,78.9402031 56.8527276,79.6182778 58.4349983,76.7892614 L76.4459245,44.4626903 C77.5887847,42.3987148 76.9075838,39.7655358 74.918621,38.5761262 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
