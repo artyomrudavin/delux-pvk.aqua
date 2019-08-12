@@ -1,6 +1,7 @@
 .head-section {
   padding-top: $header-height;
-  background: url(../../img/hero-image.png), radial-gradient(circle, rgba(0,0,0,0) 0%, #000000 100%);
+  background: url(../../img/@1x/hero-image.png),
+    radial-gradient(circle, rgba(0, 0, 0, 0) 0%, #000000 100%);
   background-size: cover;
 
   .cta-wrapper {
@@ -8,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     max-width: 945px;
-    margin: rem(100px) auto 0;
 
     &__privacy {
       margin-top: rem(20px);
@@ -16,6 +16,30 @@
       @include media-breakpoint-down(md) {
         font-size: 0.8rem;
       }
+    }
+  }
+
+  &__image {
+    display: block;
+    max-height: 449px;
+    margin: auto;
+
+    @include media-breakpoint-down(xs) {
+      position: absolute;
+      right: calc(50% - 60px);
+      width: 200px;
+      z-index: 0;
+      max-width: initial;
+    }
+
+    @media (max-width: 380px) {
+      top: 40px;
+    }
+  }
+
+  .checked-list-item {
+    @media (max-width: 450px) {
+      max-width: 150px;
     }
   }
 }
