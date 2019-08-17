@@ -125,3 +125,7 @@ section {
 .is-primary-shadow {
   box-shadow: 0 0 12px 0 $primary;
 }
+
+.z-10 {
+  z-index: 10;
+}
