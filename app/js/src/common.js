@@ -52,4 +52,13 @@ $(function () {
     // Replace code below to AJAX `success` function
     $('#thanksModal').modal('show')
   })
+
+
+  $('body').on('click', "[id^='pills-deluxe-']", function() {
+    var currentImgClass = '.' + $(this).data('image');
+    var currentDeviceTab = $(this).closest('.tab-pane')
+    var currentImage = currentDeviceTab.find(currentImgClass)
+    currentDeviceTab.find('.is-active-img').removeClass('is-active-img');
+    currentImage.addClass('is-active-img');
+  })
 });
