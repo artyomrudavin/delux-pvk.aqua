@@ -1,8 +1,12 @@
 .device-preview {
   &__img {
-    display: block;
+    display: none;
     max-width: 93px;
     margin: auto;
+
+    &.is-active-img {
+      display: block;
+    }
   }
 
   &__title {
