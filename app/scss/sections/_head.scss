@@ -1,8 +1,12 @@
 .head-section {
   padding-top: $header-height;
-  background: url(../../img/@1x/hero-image.png),
+  background: url(../../img/@1x/hero-image.jpg),
     radial-gradient(circle, rgba(0, 0, 0, 0) 0%, #000000 100%);
   background-size: cover;
+
+  @include media-breakpoint-down(xs) {
+    padding-top: 90px;
+  }
 
   .cta-wrapper {
     display: flex;
@@ -21,13 +25,13 @@
 
   &__image {
     display: block;
-    max-height: 449px;
+    max-height: 528px; // 449px
     margin: auto;
 
     @include media-breakpoint-down(xs) {
       position: absolute;
       right: calc(50% - 60px);
-      width: 200px;
+      width: 240px; // 200px
       z-index: 0;
       max-width: initial;
     }
