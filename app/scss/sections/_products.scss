@@ -1,7 +1,42 @@
+.nav-link__anat {
+  font-size: rem(12px);
+}
+
+.specifications-table {
+  &__thead {
+    display: none;
+
+    &.is-active-table {
+      display: table-row-group;
+    }
+  }
+
+   &__tbody {
+    display: none;
+
+    &.is-active-table {
+      display: table-row-group;
+    }
+  }
+
+  &__tr {
+    display: none;
+
+    &.is-active-table {
+      display: table-row;
+    }
+
+     &.is-none-table {
+      display: none;
+    }
+  }
+
+}
+
 .device-preview {
   &__img {
     display: none;
-    max-width: 93px;
+    max-width: 170px; // 93px
     margin: auto;
 
     &.is-active-img {
@@ -51,6 +86,14 @@
 
   &__description {
     font-size: rem(14px);
+
+    ul {
+      padding: 0;
+
+      li {
+        list-style: none;
+      }
+    }
   }
 }
 
