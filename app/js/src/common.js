@@ -10,7 +10,7 @@ $(function () {
   });
 
   $('input[type="tel"]').each(function() {
-    $(this).inputmask('+38 ( 9 9 9 ) 9 9 9 - 9 9 - 9 9');
+    $(this).inputmask('+38 999 999 99 99');
   })
 
   $('.blog-slider').slick({
@@ -47,10 +47,21 @@ $(function () {
   });
 
   $('form').on('submit', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    // Replace code below to AJAX `success` function
-    $('#thanksModal').modal('show')
+    var th = $(this);
+
+    $.ajax({
+      type: "POST",
+      url: "rest.php", //Change
+      data: th.serialize()
+    }).done(function() {
+      // alert("Thank you!");
+      setTimeout(function() {
+        // Done Functions
+        th.trigger("reset");
+      }, 500);
+      location.href = "https://delux-aqua.in.ua/sps/";
+    });
+    return false;
   })
 
 

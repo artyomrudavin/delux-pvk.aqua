@@ -16,12 +16,133 @@
     <!-- Custom Browsers Color Start -->
     <meta name="theme-color" content="#fff">
     <!-- Custom Browsers Color End -->
-    <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/main.min.css">
+
+    <!-- Google Fonts CDN -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700&display=swap&subset=cyrillic-ext"
+        rel="stylesheet">
 </head>
 
 <body>
+    <main>
+        <!-- Map Section Start -->
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title mb-4">
+                   <span class="is-primary-color">Спасибо за заказ!</span><br />
+                   менеджер свяжется с Вами в течении 15 минут
+                </h2>
+                <div class="row mb-4">
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <div class="contact-widget">
+                            <div class="contact-widget__title mb-3">Где мы находимся</div>
+                            <div class="d-flex">
+                                <i class="icon icon-location mr-2"></i>
+                                <div class="contact-widget__text">
+                                    <p class="mb-2">г. Харьков, ул. Пушкинская 3</p>
+                                    <p>Пн-Вс с 9-00 до 18-00 <br />
+                                        Без выходных</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="contact-widget">
+                            <div class="contact-widget__title mb-3">Телефон</div>
+                            <div class="d-flex">
+                                <i class="icon icon-phone mr-2"></i>
+                                <div class="contact-widget__text">
+                                    <p class="mb-2">
+                                        <a href="tel:+380501853880">+38 (050) 185-38-80</a>
+                                    </p>
+                                    <p>
+                                        <a href="tel:+380675448556">+38 (067) 544-85-56</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="contact-widget">
+                            <div class="contact-widget__title mb-3">Электронная почта, Cайт</div>
+                            <div class="d-flex">
+                                <i class="icon icon-email mr-2"></i>
+                                <div class="contact-widget__text">
+                                    <p>
+                                        <a href="mailto:deluxe.aquagradus@gmail.com">deluxe.aquagradus@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <i class="icon icon-site mr-2"></i>
+                                <div class="contact-widget__text">
+                                    <p>
+                                        <a href="http://aquagradus.com" target="_blank" rel="noopener">aquagradus.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6">
+                        <div class="contact-widget">
+                            <div class="contact-widget__title mb-3">Мы в соцсетях</div>
+                            <div class="d-flex">
+                                <a href="https://www.facebook.com/aquagradus.official" target="_blank" rel="noopener">
+                                    <i class="icon social icon-facebook mr-2"></i>
+                                </a>
+                                <a href="https://www.youtube.com/aquagradus" target="_blank" rel="noopener">
+                                    <i class="icon social icon-youtube mr-2"></i>
+                                </a>
+                                <a href="https://www.instagram.com/aquagradus/" target="_blank" rel="noopener">
+                                    <i class="icon social icon-instagram mr-2"></i>
+                                </a>
+                                <a href="https://vk.com/aquagradus" target="_blank" rel="noopener">
+                                    <i class="icon social icon-vk mr-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="map">
+            </div>
+        </section>
+        <!-- Map Section End -->
+    </main>
+    <footer class="l-footer">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <a class="l-footer__logo" href="#">
+                    <img class="img-fluid" src="../img/Logo/AquaGradusEng1-1@1x.svg" alt="logo">™
+                </a>
+                2007-2019
+            </div>
+            <div>
+                <a href="../politika-konfidencialnosti/index.html" class="float-right l-footer__pol" target="_blank">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
     <script src="../js/scripts.min.js"></script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Aquagradus
+            var aquagradus = { lat: 49.9920339, lng: 36.233336399999985 };
+            var markerIcon = `${location.href}/img/icons/map marker.svg`;
+            // The map, centered at Aquagradus
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 17, center: aquagradus });
+            // The custom marker, positioned at Aquagradus
+            var marker = new google.maps.Marker({
+                position: aquagradus,
+                map: map,
+                icon: markerIcon
+            });
+        }
+    </script>
+    <!-- https://developers.google.com/maps/documentation/javascript/get-api-key -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGUfoUhvbabI1182vooKCryruzemYGu90&callback=initMap"></script>
 </body>
 
 </html>
