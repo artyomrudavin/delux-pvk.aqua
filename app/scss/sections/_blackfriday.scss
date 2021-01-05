@@ -1,0 +1,56 @@
+.blackfriday {
+	padding: 30px 30px;
+	background: url(../img/right.jpg) center left no-repeat, url(../img/left.jpg) center right no-repeat, #000000;
+	background-size: contain;
+
+	.container {
+
+		.bf-row {
+			flex-direction: column;
+
+			.bf-img-block {
+				// width: 50%;
+			}
+
+			.bf-text-block {
+				// width: 50%;
+				color: #fff;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				.aqua, .small-h {
+					color: #0011ff;
+					font-size: 38px;
+					line-height: 38px;
+					font-weight: bold;
+				}
+					
+				.aqua {
+					margin-bottom: 20px;
+
+					.logo-font {
+						font-size: 42px;
+					}
+				}
+					
+				.img-responsive {
+					margin: 0 auto;
+				}
+
+				.bf-adds {
+					margin-bottom: 30px;
+				}
+
+				.bf-btn {
+					background-color: #c01926;
+					padding: 15px 30px;
+					// max-width: rem(200);
+				}
+			}
+		}	
+	}
+}
+	

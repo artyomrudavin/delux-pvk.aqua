@@ -26,9 +26,27 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700&display=swap&subset=cyrillic-ext"
 		rel="stylesheet">
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLTXJ4Z');</script>
+<!-- End Google Tag Manager -->
+
+	<!--NEXTEL - Коллтрекинг и виджеты-->
+	<script async src="https://cstat.nextel.com.ua:8443/tracking/script/766/563"></script>
+
 </head>
 
 <body>
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLTXJ4Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 	<!-- Header Start -->
 	<header class="l-header d-flex align-items-center">
 		<div class="container">
@@ -40,8 +58,8 @@
 					<div class="d-sm-flex d-none align-items-center mr-sm-3">
 						<i class="icon icon-phone mr-3"></i>
 						<div class="d-flex flex-column phone-wrapper">
-							<span class="phone-number">+38 (050) 185-38-80</span>
-							<span class="phone-number">+38 (067) 544-85-56</span>
+							<span class="phone-number">+38 (050) 011-30-61</span>
+							<span class="phone-number">+38 (067) 765-98-63</span>
 						</div>
 					</div>
 					<button class="btn-primary is-slim" data-toggle="modal" data-target="#callModal">
@@ -197,8 +215,8 @@
 										<div
 											class="d-flex flex-wrap justify-content-between justify-content-sm-start align-items-center mb-4">
 											<div class="d-flex align-items-center mb-sm-0 mb-2">
-												<span class="device-details__price mr-2">Цена <b>11650₴</b></span>
-												<span class="device-details__old-price mr-4">12 850₴</span>
+												<span class="device-details__price mr-2">Цена <b>11850₴</b></span>
+												<span class="device-details__old-price mr-4">13 050₴</span>
 											</div>
 											<button class="btn-primary" data-toggle="modal" data-target="#orderModal-30l">купить аппарат</button>
 										</div>
@@ -226,8 +244,8 @@
 										<div
 											class="d-flex flex-wrap justify-content-between justify-content-sm-start align-items-center mb-4">
 											<div class="d-flex align-items-center mb-sm-0 mb-2">
-												<span class="device-details__price mr-2">Цена <b>12150₴</b></span>
-												<span class="device-details__old-price mr-4">14 200₴</span>
+												<span class="device-details__price mr-2">Цена <b>12450₴</b></span>
+												<span class="device-details__old-price mr-4">14 500₴</span>
 											</div>
 											<button class="btn-primary" data-toggle="modal" data-target="#orderModal-50l">купить аппарат</button>
 										</div>
@@ -255,8 +273,8 @@
 										<div
 											class="d-flex flex-wrap justify-content-between justify-content-sm-start align-items-center mb-4">
 											<div class="d-flex align-items-center mb-sm-0 mb-2">
-												<span class="device-details__price mr-2">Цена <b>13500₴</b></span>
-												<span class="device-details__old-price mr-4">14 700₴</span>
+												<span class="device-details__price mr-2">Цена <b>13850₴</b></span>
+												<span class="device-details__old-price mr-4">15 050₴</span>
 											</div>
 											<button class="btn-primary" data-toggle="modal" data-target="#orderModal-75l">купить аппарат</button>
 										</div>
@@ -284,8 +302,8 @@
 										<div
 											class="d-flex flex-wrap justify-content-between justify-content-sm-start align-items-center mb-4">
 											<div class="d-flex align-items-center mb-sm-0 mb-2">
-												<span class="device-details__price mr-2">Цена <b>14550₴</b></span>
-												<span class="device-details__old-price mr-4">15 900₴</span>
+												<span class="device-details__price mr-2">Цена <b>14950₴</b></span>
+												<span class="device-details__old-price mr-4">16 300₴</span>
 											</div>
 											<button class="btn-primary" data-toggle="modal" data-target="#orderModal-100l">купить аппарат</button>
 										</div>
@@ -2402,10 +2420,14 @@
 						</div>
 					</div>
 				</div>
-				<form action=""
+				<form action="" method="POST" 
 					class="white-bg d-flex flex-column flex-md-row align-items-stretch align-items-md-center is-primary-shadow p-4">
-					<input class="flex-1 mr-md-4 mr-0 mb-md-0 mb-3" type="text" placeholder="Введите Имя" required>
-					<input class="flex-1 mr-md-4 mr-0 mb-md-0 mb-3" type="tel" placeholder="+38 ( _ _ _ ) _ _ _ - _ _ - _ _"
+					<!-- hidden -->
+					<input type="hidden" name="DATA[TITLE]" value="Новый лид: Аппарат - ДеЛюкс и ПВК; Форма - Акция">
+					<input type="hidden" name="DATA[SOURCE_ID]" value="Веб-сайт ДеЛюкс и ПВК">
+					<!-- hidden -->
+					<input class="flex-1 mr-md-4 mr-0 mb-md-0 mb-3" name="DATA[NAME]" type="text" placeholder="Введите Имя" required>
+					<input class="flex-1 mr-md-4 mr-0 mb-md-0 mb-3" name="DATA[PHONE_MOBILE]" type="tel" placeholder="+38 ( _ _ _ ) _ _ _ - _ _ - _ _"
 						required>
 					<button class="btn-primary">получить подарок</button>
 				</form>
@@ -2807,13 +2829,17 @@
 						</div>
 					</div>
 					<div class="col-md-6 d-flex flex-column justify-content-center">
-						<form action="" class="contact-section__form white-bg d-flex flex-column is-shadow-lg p-5 px-lg-8">
+						<form action="" method="POST" class="contact-section__form white-bg d-flex flex-column is-shadow-lg p-5 px-lg-8">
 							<h3 class="text-center mb-3">Напишите нам и мы обязательно<br />
 								ответим в течение 1го дня</h3>
-							<input class="flex-1 mb-3" type="text" placeholder="Введите Имя" required>
-							<input class="flex-1 mb-3" type="tel" placeholder="+38 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
-							<textarea class="mb-3" name="question" rows="5" placeholder="Ваш вопрос" required></textarea>
-							<button class="btn-primary">получить подарок</button>
+							<!-- hidden -->
+							<input type="hidden" name="DATA[TITLE]" value="Новый лид: Аппарат - ДеЛюкс и ПВК; Форма - Задать вопрос">
+							<input type="hidden" name="DATA[SOURCE_ID]" value="Веб-сайт ДеЛюкс и ПВК">
+							<!-- hidden -->
+							<input class="flex-1 mb-3" name="DATA[NAME]" type="text" placeholder="Введите Имя" required>
+							<input class="flex-1 mb-3" name="DATA[PHONE_MOBILE]" type="tel" placeholder="+38 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
+							<textarea class="mb-3" name="DATA[COMMENTS]" name="question" rows="5" placeholder="Ваш вопрос" required></textarea>
+							<button class="btn-primary">задать вопрос</button>
 						</form>
 					</div>
 				</div>
@@ -2849,10 +2875,10 @@
 								<i class="icon icon-phone mr-2"></i>
 								<div class="contact-widget__text">
 									<p class="mb-2">
-										<a href="tel:+380501853880">+38 (050) 185-38-80</a>
+										<a href="tel:+380500113061">+38 (050) 011-30-61</a>
 									</p>
 									<p>
-										<a href="tel:+380675448556">+38 (067) 544-85-56</a>
+										<a href="tel:+380677659863">+38 (067) 765-98-63</a>
 									</p>
 								</div>
 							</div>
@@ -3352,6 +3378,47 @@
 	</script>
 	<!-- https://developers.google.com/maps/documentation/javascript/get-api-key -->
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGUfoUhvbabI1182vooKCryruzemYGu90&callback=initMap"></script>
+	<!-- Bitrix -->
+	<!-- <script>
+		(function(w,d,u){
+			var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+			var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+		})(window,document,'https://cdn.bitrix24.ua/b6001361/crm/site_button/loader_21_1qt8rs.js');
+	</script> -->
+	<!-- Bitrix -->
+	<!-- Replain -->
+	<!-- <script>
+		window.replainSettings = { id: '4013b12b-1498-43d8-8018-5f5a504e893c' };
+		(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+			var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+		})('https://widget.replain.cc/dist/client.js');
+	</script> -->
+	<!-- Replain -->
+	<!-- Sender -->
+	<script>
+		window.senderCallback = function() {
+			SenderWidget.init({
+				companyId: "i909741774"
+			});
+		}
+	</script>
+
+	<!-- <script src="https://widget.sender.mobi/build/embed.js"
+  data-sender-widget="embed"
+  data-company-id="i909741774"
+  data-start-robot-class="..i909741774"></script> -->
+  
+	<script>
+		(function(d, s, id, companyId) {
+			var js, sjs = d.getElementsByTagName(s)[0];
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://widget.sender.mobi/connect/loader.js";
+			js.setAttribute('data-company-id', companyId);
+			sjs.parentNode.insertBefore(js, sjs);
+		})(document, "script", "sender-connect", "i909741774");
+	</script>
+	<!-- Sender -->
 </body>
 
 </html>
